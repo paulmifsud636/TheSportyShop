@@ -9,7 +9,7 @@ pipeline {
 			}
 		}
 		stage('install') {
-			steps {
+			steps {f
 				sh "mvn install -f TheSportyShop"
 			}
 		}
